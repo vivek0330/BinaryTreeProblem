@@ -1,15 +1,16 @@
 package com.binaryTree;
 
-public class Node
-{
-	int data;
-    Node left;
-    Node right;
-
-    public Node(int data)
-    {
-        this.data = data;
-        this.left = null;
-        this.right = null;
-    }
+/* Class containing left and right child of current
+node and key value*/
+public class Node {
+	int key;
+	Node left;
+	Node right;
+	
+	//Constructor
+	public Node(int data) {
+		this.key = data;
+		this.left = null;
+		this.right = null;
+	}
 }
