@@ -60,9 +60,9 @@ public class BinarySearch {
 				inorderTraversal(node.right);
 		}
 	}
-	
+
 	/*
-	 *  Method to search inserted data
+	 * Method to search inserted data
 	 */
 	public void searchNode(Node node, int value) {
 		if (root == null)
@@ -87,6 +87,16 @@ public class BinarySearch {
 		binary.insert(56);
 		binary.insert(30);
 		binary.insert(70);
+		binary.insert(22);
+		binary.insert(40);
+		binary.insert(11);
+		binary.insert(3);
+		binary.insert(16);
+		binary.insert(60);
+		binary.insert(95);
+		binary.insert(65);
+		binary.insert(63);
+		binary.insert(67);
 
 		System.out.println("Inorder Traversal of Binary Search tree");
 		binary.inorderTraversal(binary.root);
